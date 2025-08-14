@@ -34,14 +34,6 @@ export default function Hero() {
                         </a>
                     </div>
 
-                    {/* Optional Tech Stack */}
-                    <div className="flex flex-wrap gap-4 mt-6">
-                        <span className="bg-gray-800 px-3 py-1 rounded-lg text-sm">Docker</span>
-                        <span className="bg-gray-800 px-3 py-1 rounded-lg text-sm">Kubernetes</span>
-                        <span className="bg-gray-800 px-3 py-1 rounded-lg text-sm">AWS</span>
-                        <span className="bg-gray-800 px-3 py-1 rounded-lg text-sm">Terraform</span>
-                        <span className="bg-gray-800 px-3 py-1 rounded-lg text-sm">GitHub Actions</span>
-                    </div>
                 </div>
 
                 {/* Right: Illustration / Image */}

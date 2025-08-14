@@ -40,7 +40,7 @@ export default function CICDWorkflow() {
                                 strokeDasharray="226"
                                 strokeDashoffset="226"
                                 style={{
-                                    animation: `fillCircle 1s forwards ${index * 1.2}s`,
+                                    animation: `fillCircle 1s forwards ${index * 0.5}s`,
                                 }}
                             />
                         </svg>
@@ -55,7 +55,7 @@ export default function CICDWorkflow() {
                             className="absolute top-1/2 left-full w-16 h-1 origin-left"
                             style={{
                                 backgroundColor: "transparent",
-                                animation: `fillLine 1s forwards ${(index + 1) * 1}s`,
+                                animation: `fillLine 1s forwards ${(index + 1) * 0.4}s`,
                             }}
                         />
                     )}

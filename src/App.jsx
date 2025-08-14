@@ -18,7 +18,7 @@ function App() {
     // Show the portfolio after 3 seconds (duration of animation)
     const timer = setTimeout(() => {
       setShowPortfolio(true);
-    }, 5500); // 3 seconds
+    }, 3000); // 3 seconds
     return () => clearTimeout(timer);
   }, []);
 
